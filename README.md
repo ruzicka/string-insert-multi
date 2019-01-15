@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/ruzicka/string-insert-multi.svg?branch=master)](https://travis-ci.org/ruzicka/string-insert-multi)
+[![Coverage Status](https://coveralls.io/repos/github/ruzicka/string-insert-multi/badge.svg?branch=master)](https://coveralls.io/github/ruzicka/string-insert-multi?branch=master)
 # string-insert-multi
 
 Allows you to make multiple inserts into a string in just one call.
