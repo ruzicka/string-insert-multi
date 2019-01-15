@@ -11,7 +11,7 @@
     "lint:fix": "tslint --project tsconfig.json --fix",
     "test": "jest",
     "test:coverage": "jest --coverage",
-    "test:coveralls": "tsc && jest --coverage && cat ./coverage/lcov.info | coveralls"
+    "test:coveralls": "tsc && jest --coverage --coverageReporters=text-lcov && cat ./coverage/lcov.info | coveralls"
   },
   "author": "David Ruzicka",
   "license": "MIT",
