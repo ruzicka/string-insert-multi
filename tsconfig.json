@@ -4,6 +4,7 @@
     "lib": ["es2015", "es2017", "dom"],
     "outDir": "./dist",
     "module": "commonjs",
+    "declaration": true,
     "forceConsistentCasingInFileNames": true,
     "moduleResolution": "node",
     "sourceMap": true,
