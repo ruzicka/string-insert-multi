@@ -42,6 +42,6 @@
   },
   "files": [
     "dist/index.js",
-    "dist/index.d.js"
+    "dist/index.d.ts"
   ]
 }
