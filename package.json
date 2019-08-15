@@ -1,6 +1,6 @@
 {
   "name": "string-insert-multi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Make multiple inserts into a string at once",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
