@@ -9,8 +9,8 @@
     "prepublishOnly": "tsc && npm run lint && npm test",
     "lint": "tslint --project tsconfig.json",
     "lint:fix": "tslint --project tsconfig.json --fix",
-    "test": "jest",
-    "test:coverage": "jest --coverage",
+    "test": "tsc && jest",
+    "test:coverage": "tsc && jest --coverage",
     "test:coveralls": "tsc && jest --coverage --coverageReporters=text-lcov && cat ./coverage/lcov.info | coveralls"
   },
   "author": "David Ruzicka",
@@ -30,10 +30,15 @@
     "url": "https://github.com/ruzicka/string-insert-multi/issues"
   },
   "homepage": "https://github.com/ruzicka/string-insert-multi#readme",
+  "jest": {
+    "moduleFileExtensions": [
+      "js"
+    ]
+  },
   "devDependencies": {
-    "@types/jest": "23.3.1",
+    "@types/jest": "^24.0.17",
     "coveralls": "^3.0.2",
-    "jest": "^23.6.0",
+    "jest": "^24.8.0",
     "ts-jest": "^23.10.5",
     "tslint": "^5.12.0",
     "tslint-eslint-rules": "^5.4.0",
